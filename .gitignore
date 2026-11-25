@@ -24,3 +24,21 @@ Thumbs.db
 # Fotos de perfil
 static/uploads/*
 !static/uploads/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Docker
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
