@@ -42,3 +42,6 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Archivos auxiliares de desarrollo
+estructura_proyecto.txt
